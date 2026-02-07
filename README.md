@@ -38,16 +38,22 @@ Data Loading: The sonar.csv data is loaded into a Pandas DataFrame without a hea
 
 Data Analysis: checked statistical measures and class distribution (M vs R).
 
-Preprocessing:
+🧩Preprocessing:
+  Separated features (X) and labels (Y).
+  Split data into training (90%) and testing (10%) sets.
 
-Separated features (X) and labels (Y).
-
-Split data into training (90%) and testing (10%) sets.
-
-Note: stratify=Y was used to maintain the ratio of Rocks to Mines in the split.
+Note: stratify = Y was used to maintain the ratio of Rocks to Mines in the split.
 
 Model Training: Trained a Logistic Regression model on the training set.
 
 Evaluation: Calculated accuracy scores for both training and test data.
 
 Prediction System: Built a system to take new input data, reshape it, and predict the object type.
+
+📈 Results:
+The model achieved the following accuracy metrics:
+Training Accuracy: 83.42%
+Test Accuracy: 76.19%
+
+📜 License:
+This project is open-source and available under the MIT License.
